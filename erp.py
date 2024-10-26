@@ -169,7 +169,7 @@ def get_answer():
         text_result.insert(tk.END, text1)
 
 
-db = pymysql.connect(host='localhost', port=3306, user='root', passwd='Fjh57593980', db='erp')
+db = pymysql.connect(host='localhost', port=3306, user='root', passwd='', db='erp')
 cursor = db.cursor()
 
 cursor.execute(
